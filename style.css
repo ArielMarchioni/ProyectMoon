@@ -25,7 +25,7 @@ header{
 	}
 
 .redes-sociales{
-	widows: 30%;
+	width: ;
 }
 
 .redes-sociales img:hover{
@@ -40,11 +40,14 @@ header{
 
 main{
 	background: linear-gradient(45deg, rgba(30,49,67,1) 0%, rgba(31,123,229,1) 100%);
-	padding: 70px;
+	padding-top: 70px;
+	padding-left: 10px ;
+	padding-right: 10px;
+	max-width: 100%;
 }	
 .container{
 	margin: 0 auto;
-	width: 750px ;
+	max-width: 750px ;
 	background-image: url("images/bg.jpg");
 	background-position: center;
 	background-size: cover;
@@ -67,7 +70,7 @@ main{
 }
 	.title {
 		text-align: center;
-		font-size: 40px;
+		font-size: 2.5rem;
 		padding: 10px;
 	}
 .windows{
@@ -78,7 +81,7 @@ main{
 	z-index: 99;
 }
 	.odisea-img{
-		width: 150px;
+		width: 9.375em;
 		opacity: 0.4;
 	}
 	.moon-img{

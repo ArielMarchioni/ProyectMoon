@@ -1,0 +1,67 @@
+@media (max-width: 908px){
+		.papermario{
+		display: none;
+		}
+
+}
+
+@media (max-width: 826px){
+
+		span{
+			display: none;
+		}
+}
+
+
+@media (max-width: 558px){
+
+	.title{
+		font-size: 1.7rem;
+	}
+}
+
+@media (max-width: 496px){
+
+	.text{
+		font-size: 30px;
+	}
+}
+
+@media (max-width: 481px){
+	.text{
+		font-size: 25px;
+	}
+}
+
+@media (max-width: 477px){
+	
+	.redes-sociales img{
+		margin-left: 3px;
+	}
+
+}
+
+
+@media (max-width: 437px){
+
+	header{
+		padding-right: 10px;
+	}
+	.redes-sociales{
+		flex-direction: column;
+	}
+}
+
+@media (max-width: 413px){
+	
+	header{
+		padding-right: 10px;
+	}
+	.title{
+		font-size: 1.5;
+	}
+
+	.moon-img{
+		width: 150px;
+	}
+}
