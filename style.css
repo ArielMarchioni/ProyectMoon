@@ -1,0 +1,148 @@
+*{
+	box-sizing: border-box;
+	margin:	0;
+}
+
+header{
+	padding: 20px;
+	background-color: #BD2000;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}	
+
+
+	.left{
+		display: flex;
+		align-items: center;
+		font-size: 25px;
+		color: #ffff;
+
+	}
+	header img{
+		width: 170px;
+		margin-right: 16px;
+	}
+
+.redes-sociales{
+	widows: 30%;
+}
+
+.redes-sociales img:hover{
+    	
+	transform: scale(1.1);
+	transition: 1s;}
+
+	.redes-sociales img{
+		width: 50px;
+		margin-left: 10px; 
+	}
+
+main{
+	background: linear-gradient(45deg, rgba(30,49,67,1) 0%, rgba(31,123,229,1) 100%);
+	padding: 70px;
+}	
+.container{
+	margin: 0 auto;
+	width: 750px ;
+	background-image: url("images/bg.jpg");
+	background-position: center;
+	background-size: cover;
+	border: solid 3px lightgrey; 
+	border-radius: 10px;
+	box-shadow: -1px 3px 10px -1px rgba(0,0,0,.75);
+	position: relative;
+	
+	
+}
+
+.container-app{
+	z-index: 5;
+	position: relative;
+}
+
+.app{
+	padding: 20px;
+
+}
+	.title {
+		text-align: center;
+		font-size: 40px;
+		padding: 10px;
+	}
+.windows{
+	padding: 20px;
+	background-color: #FF1D3A;
+	width: 100%;
+	min-height: 404px;
+	z-index: 99;
+}
+	.odisea-img{
+		width: 150px;
+		opacity: 0.4;
+	}
+	.moon-img{
+		width: 200px;
+		margin: 0 auto;
+		display: block;
+	}
+
+.text{
+	color: #FFFF;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	
+
+}
+	.text p {
+		text-transform: uppercase;
+		border-bottom: solid 4px #ffff;
+		display: inline-block;
+		
+	}
+.cont3{
+	overflow-wrap: break-word;
+}
+
+.entrada{
+	width:100%;
+	height: 50px;
+	background-color: #f9f871;
+}
+::placeholder{
+	color: red;
+	text-align: center;
+	font-size: 20px;
+	width: 500px;
+
+}
+
+button{
+	width: 100%;
+	padding: 20px;
+	font-size: 19px;
+	background-color:#845ec2 ;
+	display: block;
+	cursor: pointer;
+	border-radius: 10px;
+	color: #fff;
+}
+
+.papermario{
+	z-index: 1;
+}
+.mario-img{
+	width: 200px;
+	position: absolute;
+	left:650px;
+	top:89px;
+	
+}
+
+footer{
+	background-color: #ffc75f;
+	padding: 20px;
+	font-size: 20px;
+}
+

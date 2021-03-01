@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>You Make a Moon</title>
+</head>
+<body>
+	<header>
+		<div class="qq">
+			<div class="left"><img class="" src="images/odisea.png" alt="logo la odisea de los memes">La odisea de los memes</div>
+			
+		</div>
+		<div class="redes-sociales">
+			<a clas href="#"><img src="images/facebook.png" alt="facebook"></a>
+			<a clas href="#"><img src="images/twitter.png" alt="twitter"></a>
+			<a clas href="#"><img src="images/github.png" alt="github"></a>
+		</div>
+	</header>
+	<main>
+		<div class="container">
+			<div class="container-app">
+
+
+				<div class="app">
+					<div class="title"><h2>You Make a Moon</h2></div>
+					<div class="windows">
+						<img class="odisea-img" src="images/odisea.png" alt="">
+						<img class="moon-img" src="images/moon.png" alt="luna de super mario odesey">
+					
+					<div class="text">
+						<p>you got a moon!</p>
+						<div class="cont3" id="cont3"></div>
+						
+					</div>
+					
+				</div>
+
+				<input class="entrada" id="entrada" placeholder="Ingrese su texto aqui." onkeyup="escribir2()">
+				<button>Descarga tu Luna</button>
+				
+			</div>
+
+		</div>
+		<div class="papermario">
+			<img class="mario-img" src="images/papermario.png" alt="">
+		</div>
+
+		</div>
+		
+
+	</main>
+	<footer>todos los derechos recervados - La odicea de los memes 2021</footer>
+	<!--  FUNCION PARA QUE SE ESCRIBA LO QUE PONGO -->
+	
+	<script>
+function escribir2() {
+valor = document.getElementById('entrada').value;
+document.getElementById('cont3').innerHTML=' '+valor;} 
+</script> 
+
+</body>
+</html>
